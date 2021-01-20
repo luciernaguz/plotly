@@ -102,8 +102,7 @@ function BuildCharts(id){
             };
             //Plot Bubble Chart
             Plotly.newPlot("bubble", BubbleData, BubbleLayout);            
-    });   
-     
+    });
 } 
 
 //Function for  complete Html Panel sample-metadata
