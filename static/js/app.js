@@ -18,7 +18,7 @@ function init(){
 }
 //function OptionChanged from the Html
 function optionChanged(id){
-        console.log(id);
+        //console.log(id);
         BuildCharts(id);//Call Fuction
         FillPanel(id);
         
@@ -40,7 +40,6 @@ function BuildCharts(id){
             console.log(otuids);
             let otulabels=Object.values(Result.otu_labels);
             console.log(otulabels);
-
 
              /*
              Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
@@ -126,15 +125,14 @@ function FillPanel(id) {
             let Panel=d3.select("#sample-metadata");
             Panel.html(""); //clean panel
             Object.entries(Results).forEach(function([key,value]){
-                Panel.append("h6").text(`${key},${value}`);
-                
+                Panel.append("h6").text(`${key},${value}`);                
             });
            
 
         });
     }
 
-init()//init function 
+init()//init Function 
     
       
 
