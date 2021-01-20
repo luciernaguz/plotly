@@ -108,7 +108,7 @@ function BuildCharts(id){
      
 } 
 
-    //Function for  complete Html Panel sample-metadata
+//Function for  complete Html Panel sample-metadata
 function FillPanel(id) {
     console.log(id);
     d3.json("data/samples.json").then((Data) => {
@@ -133,7 +133,5 @@ function FillPanel(id) {
     }
 
 init()//init Function 
-    
+   
       
-
-
