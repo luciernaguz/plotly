@@ -1,8 +1,7 @@
 //function init load the names id´s
 function init(){
 
-        var selectids =d3.select("#selDataset");
-    
+        var selectids =d3.select("#selDataset");    
         d3.json("data/samples.json").then((importedData) => {
             var data = importedData;
             console.log(data);
@@ -30,7 +29,7 @@ function BuildCharts(id){
             let GetInfo=Data.samples;
             let Info=GetInfo.filter(FoundId=>FoundId.id == id);
             let Result= Info[0];
-            console.log(Result);
+            //console.log(Result);
             
             // top 10 values
             //let samplevalues=Object.values(result.sample_values).slice(0,10);
@@ -48,7 +47,7 @@ function BuildCharts(id){
             Use otu_labels as the hovertext for the chart.
             */
             //Bar Chart Values
-            //slice here to use same values  above for bubble chart           
+            //do the slice here to use same values above for bubble chart           
             var trace1= {
                 y: otuids.slice(0,10).map(otuID => `OTU ${otuID}`).reverse(),
                 x: samplevalues.slice(0,10).reverse(),
@@ -82,7 +81,6 @@ function BuildCharts(id){
             */
 
              // Build a Bubble Chart using the sample data ****check
-            //var trace2;
             var trace2 = 
             {
                 x: otuids,
@@ -102,7 +100,7 @@ function BuildCharts(id){
                 height: 600,
                 width: 1200                
             };
-            //Plot Bubblr Chart
+            //Plot Bubble Chart
             Plotly.newPlot("bubble", BubbleData, BubbleLayout);            
     });   
      
