@@ -108,7 +108,7 @@ function BuildCharts(id){
 
 //Function for  complete Html Panel sample-metadata
 function FillPanel(id) {
-    console.log(id);
+    //console.log(id);
     d3.json("data/samples.json").then((Data) => {
             //metadata json
             //let id=d3.select("#selDataset");
