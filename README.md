@@ -1,5 +1,5 @@
-## plotly-challenge
-# Ploty Challenge  Data Analytics
+## plotly
+# Plotly  Data Analytics
 ## Github Page:  https://luciernaguz.github.io/plotly-challenge/.
 
 ## I liked using Plotly because of how easy the chart is generated using little code and how good it looks on a site (dashboard) there is a lot that Ploty adds.
