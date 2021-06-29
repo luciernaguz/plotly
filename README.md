@@ -7,3 +7,12 @@
 ## Also use the same values to generate two charts, thats great !
 ## For me the challenge looks complete and interesting the information (dataset), I assumed there were bacteria in the belly button but I had no idea how many and which.
 ## For last that´s really helpul just a little setting in Github to present the Challenge in a Github Page.
+##
+Search an ID
+![Search](/images/image0.png)
+![Search](/images/image.png)
+![Search](/images/image3.png)
+![Search](/images/image1.png)
+![Search](/images/image2.png)
+![Search](/images/image6(1).png)
+![Search](/images/image6(2).png)
