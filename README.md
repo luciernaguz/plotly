@@ -7,4 +7,6 @@
 ## Also use the same values to generate two charts, thats great !
 ## For me the challenge looks complete and interesting the information (dataset), I assumed there were bacteria in the belly button but I had no idea how many and which.
 ## For last that´s really helpul just a little setting in Github to present the Challenge in a Github Page.
-## Images 
+##
+Looking gor a bacteria ID
+![Search](/images/LatitudevsHumidity.png)
